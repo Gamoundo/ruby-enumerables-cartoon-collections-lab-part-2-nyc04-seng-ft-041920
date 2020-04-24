@@ -18,9 +18,9 @@ def long_planeteer_calls(planeteer_calls)
   
   planeteer_calls.each do |str|
     if str.length > 4
-      true
+    return  true
     else
-      false
+     return false
     end
   end
 end
